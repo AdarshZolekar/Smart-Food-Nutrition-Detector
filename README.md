@@ -73,7 +73,7 @@ Smart Food Nutrition Detector/
 ├─ backend/
 │  ├─ app.py
 │  ├─ model_clip.py
-│  ├─ foods.csv        # Anuvaad dataset
+│  ├─ foods.csv
 │  ├─ labels.json
 │  ├─ requirements.txt
 ├─ frontend/
@@ -88,30 +88,30 @@ Smart Food Nutrition Detector/
 ## Setup Instructions
 
 1. Backend
-  ```
-  cd backend
-  python -m venv .venv
-  source .venv/bin/activate 
-  pip install --upgrade pip
-  pip install -r requirements.txt
-  python app.py
-  ```
- Backend runs at: http://localhost:5000
+   ```
+   cd backend
+   python -m venv .venv
+   source .venv/bin/activate 
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   python app.py
+   ```
+   Backend runs at: http://localhost:5000
 
 2. Frontend
   ```
   cd frontend
   python -m http.server 8000
   ```
- Frontend available at: http://localhost:8000
+  Frontend available at: http://localhost:8000
 
 3. Google Colab (Optional)
 
-Use colab/build_labels_and_validate.ipynb to:
+  Use colab/build_labels_and_validate.ipynb to:
 
-Prepare labels.json
+  Prepare labels.json
 
-Validate image recognition with CLIP.
+  Validate image recognition with CLIP.
 
 ---
 
@@ -145,19 +145,12 @@ Validate image recognition with CLIP.
 Search “banana” →
 
 - Calories: 89 kcal
-
 - Carbs: 22.8 g
-
 - Protein: 1.1 g
-
 - Fat: 0.3 g
-
 - Free Sugar: 12.2 g
-
 - Fibre: 2.6 g
-
 - Cholesterol: 0 mg
-
 - Calcium: 5 mg
 
 ---
@@ -183,3 +176,9 @@ Search “banana” →
 ## Contributing
 
 Contributions are welcome! Fork the repo, make changes and submit a PR.
+
+<p align="center">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/%E2%AC%86-Back%20to%20Top-blue?style=for-the-badge" alt="Back to Top"/>
+  </a>
+</p>
