@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NutriCalc</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>NutriCalc</h1>
+      <p>Search or upload a food image</p>
+    </header>
+
+    <section class="search-box">
+      <input id="q" type="text" placeholder="banana, dosa, biryani..." />
+      <button id="btnSearch">Search</button>
+    </section>
+
+    <section class="upload-box">
+      <input id="file" type="file" accept="image/*" />
+      <button id="btnPredict">Detect from Image</button>
+    </section>
+
+    <section id="results" class="results"></section>
+  </div>
+  <script>
+    const API_BASE = (location.hostname === 'localhost') ? 'http://localhost:5000' : '';
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
