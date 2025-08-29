@@ -1,12 +1,6 @@
 ## Smart Food Nutrition Detector
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)  
-![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey)  
-![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)  
-![HTML5](https://img.shields.io/badge/HTML5-Markup-orange)  
-![CSS3](https://img.shields.io/badge/CSS3-Design-blue)  
-![Google Colab](https://img.shields.io/badge/Google%20Colab-ML-green)  
-![Dataset](https://img.shields.io/badge/Dataset-Anuvaad%20Nutrition-red)  
+![Python](https://img.shields.io/badge/Python-3.9-blue)  ![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey)  ![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)  ![HTML5](https://img.shields.io/badge/HTML5-Markup-orange)  ![CSS3](https://img.shields.io/badge/CSS3-Design-blue)  ![Google Colab](https://img.shields.io/badge/Google%20Colab-ML-green)  ![Dataset](https://img.shields.io/badge/Dataset-Anuvaad%20Nutrition-red)  
 
 Smart Food Nutrition Detector is a nutrition analyzer that helps users understand the nutritional value of their food. It supports both search by food name and image-based food recognition.
 
@@ -57,24 +51,6 @@ Calcium
 Upload a clear food image.
 
 The app detects the food and shows its nutritional breakdown.
-
----
-
-## Project Structure
-
-Smart Food Nutrition Detector/
-├─ backend/
-│  ├─ app.py
-│  ├─ model_clip.py
-│  ├─ foods.csv
-│  ├─ labels.json
-│  ├─ requirements.txt
-├─ frontend/
-│  ├─ index.html
-│  ├─ styles.css
-│  ├─ app.js
-└─ colab/
-   └─ build_labels_and_validate.ipynb
 
 ---
 
@@ -175,4 +151,5 @@ Contributions are welcome! Fork the repo, make changes and submit a PR.
     <img src="https://img.shields.io/badge/%E2%AC%86-Back%20to%20Top-blue?style=for-the-badge" alt="Back to Top"/>
   </a>
 </p>
+
 
