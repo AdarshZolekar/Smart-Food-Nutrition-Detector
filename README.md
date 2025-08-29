@@ -43,19 +43,12 @@ Enter a food item in the search bar (e.g., banana, pizza, dosa).
 The detector will display nutritional info:
 ```
 Calories
-
 Carbohydrates
-
 Protein
-
 Fat
-
 Free Sugar
-
 Fibre
-
 Cholesterol
-
 Calcium
 ```
 
@@ -99,19 +92,19 @@ Smart Food Nutrition Detector/
    Backend runs at: http://localhost:5000
 
 2. Frontend
-  ```
-  cd frontend
-  python -m http.server 8000
-  ```
-  Frontend available at: http://localhost:8000
+   ```
+   cd frontend
+   python -m http.server 8000
+   ```
+   Frontend available at: http://localhost:8000
 
 3. Google Colab (Optional)
 
-  Use colab/build_labels_and_validate.ipynb to:
+   Use colab/build_labels_and_validate.ipynb to:
 
-  Prepare labels.json
+   Prepare labels.json
 
-  Validate image recognition with CLIP.
+   Validate image recognition with CLIP.
 
 ---
 
@@ -123,7 +116,7 @@ Smart Food Nutrition Detector/
 
 - Google Colab (dataset preparation)
 
-- Anuvaad Nutrition Dataset for Indian food items
+- Anuvaad Nutrition Dataset for Indian food items.
 
 ---
 
@@ -135,7 +128,7 @@ Smart Food Nutrition Detector/
 
 - Search returns rows for common items
 
-- Image detection returns candidates and at least one match for clear photos
+- Image detection returns candidates and at least one match for clear photos.
 
 
 ---
@@ -182,3 +175,4 @@ Contributions are welcome! Fork the repo, make changes and submit a PR.
     <img src="https://img.shields.io/badge/%E2%AC%86-Back%20to%20Top-blue?style=for-the-badge" alt="Back to Top"/>
   </a>
 </p>
+
