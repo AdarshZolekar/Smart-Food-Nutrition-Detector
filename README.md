@@ -1,8 +1,9 @@
 ## Smart Food Nutrition Detector
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)  ![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey)  ![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)  ![HTML5](https://img.shields.io/badge/HTML5-Markup-orange)  ![CSS3](https://img.shields.io/badge/CSS3-Design-blue)  ![Google Colab](https://img.shields.io/badge/Google%20Colab-ML-green)  ![Dataset](https://img.shields.io/badge/Dataset-Anuvaad%20Nutrition-red)  
+![Python](https://img.shields.io/badge/Python-3.9-blue)  ![Flask](https://img.shields.io/badge/Flask-Backend-lightgrey)  ![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)  ![HTML5](https://img.shields.io/badge/HTML5-Markup-orange)  ![CSS3](https://img.shields.io/badge/CSS3-Design-blue)  ![Google Colab](https://img.shields.io/badge/Google%20Colab-ML-green) 
 
 Smart Food Nutrition Detector is a nutrition analyzer that helps users understand the nutritional value of their food. It supports both search by food name and image-based food recognition.
+I have created a dataset for this on Hugging Face : https://huggingface.co/datasets/adarshzolekar/foods-nutrition-dataset
 
 ---
 
@@ -24,7 +25,7 @@ This project was developed as a second internship project to demonstrate practic
 
 - Tech Stack: Python, Flask, HTML, CSS, JavaScript, Google Colab
 
-- Dataset: Anuvaad Nutrition Dataset for Indian food items
+- Dataset: https://huggingface.co/datasets/adarshzolekar/foods-nutrition-dataset
 
 ---
 
@@ -72,7 +73,7 @@ The app detects the food and shows its nutritional breakdown.
    cd frontend
    python -m http.server 8000
    ```
-   Frontend available at: http://localhost:8000
+   Frontend runs at: http://localhost:8000
 
 3. Google Colab (Optional)
 
@@ -92,7 +93,7 @@ The app detects the food and shows its nutritional breakdown.
 
 - Google Colab (dataset preparation)
 
-- Anuvaad Nutrition Dataset for Indian food items.
+- foods-nutrition-dataset for Indian food items.
 
 ---
 
@@ -151,5 +152,6 @@ Contributions are welcome! Fork the repo, make changes and submit a PR.
     <img src="https://img.shields.io/badge/%E2%AC%86-Back%20to%20Top-blue?style=for-the-badge" alt="Back to Top"/>
   </a>
 </p>
+
 
 
