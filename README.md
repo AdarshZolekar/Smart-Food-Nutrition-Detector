@@ -9,7 +9,7 @@ I have created a dataset for this on Hugging Face : https://huggingface.co/datas
 
 ## About this project
 
-This project was developed as a second internship project to demonstrate practical skills in full-stack development, machine learning and nutrition data analysis with Edunet Foundation.
+This project was developed as an internship project to demonstrate practical skills in full-stack development, machine learning and nutrition data analysis with Edunet Foundation.
 
 ---
 
@@ -152,6 +152,7 @@ Contributions are welcome! Fork the repo, make changes and submit a PR.
     <img src="https://img.shields.io/badge/%E2%AC%86-Back%20to%20Top-blue?style=for-the-badge" alt="Back to Top"/>
   </a>
 </p>
+
 
 
 
